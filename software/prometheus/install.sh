@@ -2,7 +2,8 @@
 
 helm upgrade --install prometheus prometheus \
   --repo https://prometheus-community.github.io/helm-charts \
-  --namespace prometheus --create-namespace
+  --namespace prometheus --create-namespace \
+  --values values.yaml
 
 
 export POD_NAME=$(kubectl get pods \
