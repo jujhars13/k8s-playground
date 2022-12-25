@@ -1,0 +1,11 @@
+controller:
+  service:
+    externalIPs:
+    - 192.168.39.5 # this is minikube's ip use `minikube ip`
+
+  metrics:
+    enabled: true
+    service:
+      annotations:
+        prometheus.io/scrape: "true"
+        prometheus.io/port: "10254"
