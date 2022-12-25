@@ -1,7 +1,6 @@
-# K8s service mesh experiments
+# K8s playground
 
-Use tf to deploy a k8s service
-
+Used for things such as service mesh and ebpf experiments
 
 ## Minikube
 
