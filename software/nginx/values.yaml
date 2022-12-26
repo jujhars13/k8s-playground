@@ -1,7 +1,7 @@
 controller:
   service:
     externalIPs:
-    - 192.168.39.5 # this is minikube's ip use `minikube ip`
+      - 192.168.39.5 # this is minikube's ip use `minikube ip`
 
   metrics:
     enabled: true
