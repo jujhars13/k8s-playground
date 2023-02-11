@@ -22,3 +22,5 @@ minikube kubectl -- get pods -A
 (cd deploy && terraform apply)
 (cd deploy && terraform destroy)
 ```
+
+

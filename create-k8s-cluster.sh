@@ -10,4 +10,4 @@ minikube delete
 # sudo apt-get install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils
 # sudo adduser $(id -un) libvirt
 # virt-host-validate
-minikube start --driver=kvm2
+minikube start --driver=kvm2 --addons registry headlamp ingress

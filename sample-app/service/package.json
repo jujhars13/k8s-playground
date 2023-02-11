@@ -1,0 +1,16 @@
+{
+  "name": "service",
+  "version": "1.0.0",
+  "description": "web service to get content from an API",
+  "main": "svc.js",
+  "scripts": {
+    "run": "node svc.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "security": "snyk test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "",
+  "license": "MIT"
+}
